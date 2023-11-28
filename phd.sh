@@ -52,7 +52,8 @@ function check_accounts {
     fi
 }
 
-
+RD='\033[91m'; # Red
+NT='\033[97m'; # Netral
 read -p "file: " lst
 
 # Check if the input file exists
