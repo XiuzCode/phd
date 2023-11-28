@@ -11,7 +11,7 @@ trap cleanup SIGINT
 
 
 function agent {
-    agent=$(shuf -n 1 "agent_.i")
+    agent=$(shuf -n 1 "agent_.txt")
 }
 
 
